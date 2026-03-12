@@ -20,12 +20,19 @@ Tecnologias Utilizadas
 
 Estrutura do Projeto
 src/
+
 ├── scrapers/ # Código para coleta de dados
+
 ├── data_pipeline/ # Processamento e limpeza
+
 └── dashboard/ # Aplicação Streamlit
+
 data/
+
 ├── raw/ # Dados brutos (não versionados)
+
 └── processed/ # Dados processados
+
 notebooks/ # Análises exploratórias
 
 
