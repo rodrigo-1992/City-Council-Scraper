@@ -1,0 +1,44 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Dados coletados (não versionar dados brutos)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/
+
+# Dotenv
+.env
+
+# Logs
+*.log
+
+# Sistema
+Thumbs.db
+.DS_Store
